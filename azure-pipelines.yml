@@ -14,7 +14,7 @@ resources:
      - pipeline: 'buildPipeline'
        project: 'AzureTestProject'
        source: 'Build pipeline'
-       branch: 'main'
+       branch: 'master'
 
 stages:
   - stage: DeployWebsite
