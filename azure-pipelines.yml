@@ -14,7 +14,7 @@ resources:
      - pipeline: 'buildPipeline'
        project: 'AzureTestProject'
        source: 'Build pipeline'
-       branch: 'main'
+       branch: 'master'
 
 stages:
   - stage: DeployWebsite
@@ -25,7 +25,7 @@ stages:
     jobs:
     - deployment: DeployWebsite
       displayName: 'Deploy website'
-      environment: 'Windows 11 server.DAVE'
+      environment: 'Windows 10 Server.AHOLTP0723'
       strategy:
        runOnce:
            deploy:
