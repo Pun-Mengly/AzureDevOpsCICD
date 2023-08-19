@@ -5,7 +5,7 @@ namespace Web2Test
         [Fact]
         public void ConnectToDBTest()
         {
-            Assert.True(1==1);
+            Assert.True(2==2);
         }
     }
 }
